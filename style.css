@@ -48,3 +48,12 @@ a {
   transform: translateY(50%);
 }
 
+@media (max-width: 500px) {
+  .wrapper {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
